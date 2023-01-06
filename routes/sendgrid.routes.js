@@ -35,9 +35,9 @@ router.post('/contact', (req, res, next) => {
   
   function sendEmail(email, message, name) {
     const msg = {
-      to: 'RJE19902511@outlook.com', // Change to your recipient
+      to: 'spucti19@gmail.com', // Change to your recipient
       from: 'RJE19902511@outlook.com', // Change to your verified sender
-      subject: 'hello',
+      subject: 'Ryan Essel Portofolio Website',
       html: `${name} sent a message: ${message} from ${email}`,
     }
   
